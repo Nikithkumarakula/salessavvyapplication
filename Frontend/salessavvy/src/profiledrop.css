@@ -1,0 +1,172 @@
+/* General Styles */
+.sales-savvy-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Left Section: Shopping Cart and Order Summary */
+  .left-section {
+    width: 60%;
+  }
+  
+  .shopping-continue h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .shopping-continue h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .shopping-continue h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .shopping-continue p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .product-details {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .product-details h4 {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .order-summary {
+    margin-bottom: 20px;
+  }
+  
+  .order-summary h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .order-summary table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .order-summary td {
+    padding: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  .order-summary td:first-child {
+    font-weight: bold;
+  }
+  
+  /* Right Section: User Profile and Actions */
+  .right-section {
+    width: 35%;
+  }
+  
+  .profile-dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .profile-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .username {
+    font-size: 16px;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  
+  .dropdown-menu button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  
+  .dropdown-menu button:hover {
+    background: #f0f0f0;
+  }
+  
+  /* Profile Frame (Right Side) */
+ /* Profile Frame (Right to Left with Top Adjustment) */
+/* Profile Frame (Adjusted to Match Image Layout) */
+.profile-frame {
+    position: fixed;
+    top: 83px; /* Adjust the top position as needed */
+    left: 1080px; /* Move the frame to the left side */
+    right: auto; /* Disable right positioning */
+    width: 300px; /* Width of the frame */
+    height: auto; /* Height adjusts based on content */
+    background: white; /* Background color */
+    border: 1px solid #ccc; /* Border for the frame */
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    padding: 20px; /* Padding inside the frame */
+    z-index: 999; /* Ensure it appears above other elements */
+    border-radius: 8px; /* Rounded corners for a modern look */
+  }
+  
+  .profile-frame h3 {
+    margin-top: 0;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .close-button:hover {
+    color: #ff0000;
+  }
+/* Hover Effect for Profile Details */
+.profile-frame p {
+  font-size: 16px;
+  color: #333;
+  padding: 8px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.2s ease-in-out;
+}
+
+.profile-frame p:hover {
+  background-color: #f7f7f7; /* Light gray background */
+  transform: scale(1.05); /* Slight zoom effect */
+  font-weight: bold;
+  cursor: pointer;
+}
